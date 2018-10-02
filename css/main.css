@@ -1,4 +1,9 @@
 @import url("../font/cocomat/stylesheet.css");
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; }
+
 #bg-video {
   position: fixed;
   right: 0;
@@ -7,13 +12,25 @@
   min-height: 100%;
   z-index: -1;
   filter: hue-rotate(3.142rad); }
+  @media only screen and (max-width: 600px) {
+    #bg-video {
+      right: -160vw;
+      height: 100%; } }
 
-svg {
-  width: 15%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 3%;
-  z-index: 1; }
+.wrapper {
+  padding: 20vh 0; }
+  .wrapper svg {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    z-index: 1; }
+    @media only screen and (max-width: 600px) {
+      .wrapper svg {
+        width: 50%; } }
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+      padding: 25vh 0; } }
 
 .home {
   background-color: #ffcc00;
@@ -35,5 +52,8 @@ svg {
     background-color: #000;
     border: 3px solid #000;
     color: #ffcc00; }
+  @media only screen and (max-width: 600px) {
+    .home {
+      width: 30%; } }
 
 /*# sourceMappingURL=main.css.map */

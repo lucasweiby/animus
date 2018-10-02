@@ -56,4 +56,38 @@ body {
     .home {
       width: 30%; } }
 
+.navbar {
+  background-color: #3498db !important;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); }
+  .navbar .brand-logo {
+    width: 150px; }
+  .navbar .nav-link {
+    display: block;
+    font-family: "COCOMAT";
+    color: #fff !important;
+    font-size: 15px;
+    margin: 0 0.3vw;
+    transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease; }
+    .navbar .nav-link:hover {
+      background-color: #ffcc00;
+      color: #000 !important;
+      font-size: 17px;
+      -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); }
+  .navbar .navbar-light .navbar-toggler {
+    color: #ffcc00; }
+
+#banner-home {
+  height: 600px;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #353b48;
+  background-blend-mode: luminosity; }
+
 /*# sourceMappingURL=main.css.map */

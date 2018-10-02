@@ -1,0 +1,28 @@
+.navbar {
+  background-color: $blue !important;
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  .brand-logo {
+    width: 150px;
+  }
+  .nav-link {
+    display: block;
+    font-family: $link-font;
+    color: #fff !important;
+    font-size: 15px;
+    margin: 0 0.3vw;
+    transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+    &:hover {
+      background-color: $complementary;
+      color: #000 !important;
+      font-size: 17px;
+      -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+      -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+      box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+    }
+  }
+  .navbar-light .navbar-toggler {
+    color: $complementary;
+  }
+}

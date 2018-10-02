@@ -1,1 +1,3 @@
 https://www.youtube.com/watch?v=g77WfQ-blxI - preloader
+https://videos.pexels.com/ - videos
+https://codepen.io/atcraigwatson/pen/bBbWxB - scroll nav animation
